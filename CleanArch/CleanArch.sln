@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{EB15D02C-3745-41E4-8B5C-269E2CEED194}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "ClassLibrary2\CleanArch.Domain.csproj", "{29A35A1C-116D-44C5-AC4E-736FB64E2812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{EB15D02C-3745-41E4-8B5C-269E2CEED194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB15D02C-3745-41E4-8B5C-269E2CEED194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB15D02C-3745-41E4-8B5C-269E2CEED194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A35A1C-116D-44C5-AC4E-736FB64E2812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A35A1C-116D-44C5-AC4E-736FB64E2812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A35A1C-116D-44C5-AC4E-736FB64E2812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A35A1C-116D-44C5-AC4E-736FB64E2812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EB15D02C-3745-41E4-8B5C-269E2CEED194} = {36E1CA23-380B-4285-BC50-99F1C2FBE165}
+		{29A35A1C-116D-44C5-AC4E-736FB64E2812} = {9F675A59-AECB-4D0B-9755-782D619C708A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A25627D5-343A-4A4C-BE48-773CC48DF3D6}
